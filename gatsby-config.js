@@ -11,5 +11,18 @@ module.exports = {
       },
     },
     { resolve: `gatsby-plugin-fontawesome-css` },
+    { resolve: `gatsby-plugin-react-helmet` },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Simplicitea`,
+        short_name: `Simplicitea`,
+        start_url: `/`,
+        background_color: `#d9dfce`,
+        theme_color: `#51544d`,
+        display: `standalone`,
+        icon: `src/images/favicon.png`,
+      },
+    },
   ],
 };
