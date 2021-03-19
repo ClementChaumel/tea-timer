@@ -3,18 +3,17 @@ import styled from "styled-components";
 import ReactSlider from "react-slider";
 
 import {
+  textColor,
   backgroundColor,
-  incurvedOut,
-  incurvedIn,
   insetRegularShadow,
-  insetShallowShadow,
   outsetRegularShadow,
-  outsetShallowShadow,
-  TextInput,
 } from "./StyledComponents";
 
 const ThermometerWrapper = styled.div`
   position: relative;
+  width: 60px;
+  top: 200px;
+  left: 30px;
 `;
 
 const Tank = styled.div`
@@ -28,18 +27,18 @@ const Tank = styled.div`
 
 const Length = styled.div`
   position: absolute;
-  top: -280px;
+  top: -200px;
   left: 15px;
   background: ${backgroundColor};
   box-shadow: ${outsetRegularShadow};
   width: 30px;
-  height: 300px;
+  height: 220px;
   border-radius: 9999px;
 
   &::before {
     content: "";
     position: absolute;
-    top: 280px;
+    top: 200px;
     left: -15px;
     background: ${backgroundColor};
     height: 60px;
@@ -51,8 +50,8 @@ const Length = styled.div`
 const MarkingsWrapper = styled.div`
   position: absolute;
   left: -16px;
-  top: -275px;
-  height: 280px;
+  top: -195px;
+  height: 200px;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
@@ -67,7 +66,7 @@ const Marking = styled.span`
     margin-left: 8px;
     width: 10px;
     height: 1px;
-    background: black;
+    background: ${textColor};
   }
 `;
 
@@ -85,10 +84,10 @@ const InsideTank = styled.div`
 const InsideLength = styled.div`
   position: absolute;
   left: 25px;
-  top: -266px;
+  top: -186px;
   background: ${backgroundColor};
   box-shadow: ${insetRegularShadow};
-  height: 280px;
+  height: 200px;
   width: 10px;
   border-radius: 9999px;
 `;
@@ -105,9 +104,9 @@ const MercuryTank = styled.div`
 
 const StyledSlider = styled(ReactSlider)`
   left: 28px;
-  top: -260px;
+  top: -180px;
   width: 20px;
-  height: 280px;
+  height: 200px;
   cursor: pointer;
 `;
 

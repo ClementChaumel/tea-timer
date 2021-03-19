@@ -1,10 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
-  incurvedOut,
-  incurvedIn,
   insetRegularShadow,
   insetShallowShadow,
   TextInput,
@@ -23,6 +20,9 @@ const SelectSC = styled(TextInput)`
 
 const Select = ({ options }) => (
   <SelectSC as="select">
+    <option selected="true" disabled>
+      Select one
+    </option>
     {options.map((option) => (
       <option value="item">{option}</option>
     ))}
