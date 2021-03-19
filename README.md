@@ -1,4 +1,4 @@
-# 🍵 Simplicitea; the perfect cuppa, everytime.
+# [🍵 Simplicitea; the perfect cuppa, everytime.](https://simplicitea.netlify.app/)
 
 ## Contribute
 
