@@ -1,4 +1,4 @@
-# 🍵 Simplicitea, the perfect cuppa; Everytime.
+# 🍵 Simplicitea; the perfect cuppa, everytime.
 
 ## Contribute
 
