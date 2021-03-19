@@ -293,8 +293,8 @@ const IndexPage = () => {
           />
         </SignWrapper>
         <CvvWrapper>
-          <p>Credit card's CVV</p>
-          <TextInput type="number" placeholder="123" />
+          <p>Your credit card number</p>
+          <TextInput type="number" placeholder="1234 5678 9012 2345" />
         </CvvWrapper>
         <GenderWrapper>
           <p>Gender</p>
