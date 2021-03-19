@@ -327,7 +327,7 @@ const IndexPage = () => {
             }}
           >
             <FontAwesomeIcon icon={faMugHot} size="1x" />
-            Start brewing
+            Start steeping
           </Button>
         </ButtonWrapper>
         <TimerWrapper isHidden={!isBrewing}>
